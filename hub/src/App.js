@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button, Form, Grid, Header, Message, Segment, Checkbox } from 'semantic-ui-react'
+import { Button, Form, Grid, Header, Message, Segment, Checkbox, Icon } from 'semantic-ui-react';
 import './App.css';
 
 class ShakingError extends React.Component {
@@ -142,6 +142,13 @@ class App extends Component {
                 target="_blank" 
                 rel='noopener noreferrer'
                 >{' '}BlockchainDevs</a>
+                <br />
+                Made with <Icon circular color='red' name='heart' /> by
+                <a
+                  href="https://github.com/sambhav2612/" 
+                  target="_blank" 
+                  rel='noopener noreferrer'
+                >{' '}Sambhav Jain</a>
             </Message>
             <div className="res-block">
               {invalid && (
