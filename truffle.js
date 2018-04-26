@@ -9,7 +9,7 @@ module.exports = {
       port: 8545,
       network_id: "*", // Match any network id
       gas: 4712388,    // default
-      from: "0000000000000000000000000000000000000001"
+      from: "0000000000000000000000000000000000000000"
     },
     rinkeby: {
       host: "localhost",
@@ -17,7 +17,7 @@ module.exports = {
       network_id: "4",
       gas: 4712388,
       gasPrice: 100000000000,
-      from: "79a1b6fecfa9c954803d2b59773fadc39d063e64"
+      from: "0000000000000000000000000000000000000000"
     }
   }
 };
