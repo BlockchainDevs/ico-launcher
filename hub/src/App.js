@@ -143,12 +143,12 @@ class App extends Component {
                 rel='noopener noreferrer'
                 >{' '}BlockchainDevs</a>
                 <br />
-                Made with <Icon circular color='red' name='heart' /> by
+                Made with <Icon color='red' name='heart' /> by
                 <a
                   href="https://github.com/sambhav2612/" 
                   target="_blank" 
                   rel='noopener noreferrer'
-                >{' '}Sambhav Jain</a>
+                >Sambhav Jain</a>
             </Message>
             <div className="res-block">
               {invalid && (
