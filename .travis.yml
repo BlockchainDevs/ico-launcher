@@ -1,4 +1,16 @@
+language: node_js
+node_js:
+  - "lts/*"
+env: 
+  - BABEL_ENV=development
+  - NODE_ENV=development
 deploy:
   provider: firebase
   token:
     secure: "YOUR ENCRYPTED token"
+cache:
+  directories:
+    - "node_modules"
+    - "app/node_modules"
+script:
+  - npm run test
